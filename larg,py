@@ -1,0 +1,31 @@
+
+num1 =float(input("enter the first number ="))
+num2 =float(input("enter the second number ="))
+num3 =float(input("enter the thred number ="))
+
+if num1 >num2  and num1 > num3:
+    print(num1,"is large number")
+
+elif num2 >num1 and num2 > num3:
+     print(num2,"is large number")
+
+elif num1 ==num2  and num1 == num3:
+     print("it is same number")
+
+elif num2 ==num1 and num2 == num3:
+     print("it is same number")
+
+elif num3 ==num1 and num3== num2:
+     print("it is same number")
+
+else:
+     print(num3,"is the large number")
+
+#or
+
+#max_number = max(num1, num2, num3)
+
+#if num1 == num2 == num3:
+ #   print("All numbers are the same.")
+#else:
+    #print(f"The largest number is: {max_number}")
