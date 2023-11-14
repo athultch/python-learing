@@ -11,4 +11,4 @@ for num in range(lower, upper + 1):
         else:
             print(num)
 else:
-    print("input lower upper corectly")
+    print("input lower upper error")
